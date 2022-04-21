@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand{
+    color: white;
+    margin-top: -7px;
+}
+
+.menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: blue;
+    color: ;
+}
+
+.banner{
+    width: 700px;
+    height: 300px;
+    border: 3px solid red;
+    margin: auto;
+
+    background-image: url();
+    background-size: 100% 100%;
+
+}
